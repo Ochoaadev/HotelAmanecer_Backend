@@ -7,7 +7,7 @@ const { swaggerDocs } = require("./Swagger");
 const fs = require('fs')
 const multer = require("multer");
 
-var indexRouter = require('./src/routes/index');
+var indexRouter = require('./src/routes/routes');
 
 var app = express();
 

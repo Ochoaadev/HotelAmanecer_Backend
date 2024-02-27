@@ -17,7 +17,7 @@ const options = {
   apis: ["src/docs/documentation.js"],
 };
 
-const specs = swaggerJsdoc(options);
+const swagerSpect = swaggerJsdoc(options);
 
 const swaggerDocs = (app, port) => {
     app.use(
